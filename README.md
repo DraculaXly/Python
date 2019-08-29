@@ -1,3 +1,2 @@
-# Python
-## All Python Projects
+# All Python Projects
 ## To be updated
