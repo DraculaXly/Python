@@ -18,7 +18,7 @@ time.sleep(2)
 driver.find_element_by_xpath("//*[@text='Ant Forest']").click()
 time.sleep(2)
 
-# get self energy
+# get self's energy
 def get_own(driver):
     items = driver.find_elements_by_class_name("android.widget.Button")
     if len(items) > 5:
@@ -36,7 +36,7 @@ def get_friends(driver):
     driver.find_element_by_xpath("//*[@text='View more friends']").click()
     time.sleep(1)
 
-    # get friends energy o(*￣▽￣*)ブ
+    # 'get' friends' energy o(*￣▽￣*)ブ
     while True:
         TouchAction(driver).press(x=235, y=935).release().perform()
         time.sleep(1)
